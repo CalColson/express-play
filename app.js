@@ -6,7 +6,7 @@ const app = express()
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Hello Calbot World!')
 })
 
 const port = 3000
