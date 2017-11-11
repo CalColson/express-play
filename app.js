@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
     res.send('Hello Calbot World!')
 })
 
-const port = 3000
+const port = process.env.PORT || localPort
 app.listen(port, () => {
     console.log(`Server started on ${port}`)
 })
