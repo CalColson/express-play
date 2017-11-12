@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/CalColson/express-play#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "bootstrap": "^4.0.0-beta.2",
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
   },
   "devDependencies": {
     "eslint-config-google": "^0.9.1"
